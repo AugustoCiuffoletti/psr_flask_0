@@ -1,20 +1,11 @@
 # Esempio base di progetto Flask: "hello world" #
 
-Queste istruzioni sono relative alla macchina "desktop" del laboratorio
-virtuale.
+Queste istruzioni sono relative alla macchina "desktop" del laboratorio virtuale.
 
-Per svolgere l'attività di laboratorio digitare, in una console della
-macchina virtuale, i seguenti comandi:
+Per svolgere l'attività di laboratorio digitare, in una console della macchina virtuale:
 
 ```
-#!bash
-
-$ cd
-$ . Flask/bin/activate
-$ git clone git@bitbucket.org:augusto_ciuffoletti/lab_flask_0.git
-$ cd lab_flask_0
-$ export FLASK_APP=hallo.py
-$ flask run --host=0.0.0.0
+$ make run
 ```
 
 Dal computer host, quello reale, aprite il browser e digitate la url:

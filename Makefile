@@ -1,4 +1,5 @@
-.PHONY: run stop
-FLASK_APP=hallo.py
+.PHONY: run
 run:
-	. ~/Flask/bin/activate; export FLASK_APP=hallo.py; flask run --host=0.0.0.0
+	. ~/Flask/bin/activate; \
+	export FLASK_APP=$(wildcard *.py); \
+	flask run --host=0.0.0.0
